@@ -21,7 +21,7 @@ const addTemporadasEpisodios = async () => {
           console.log(`Inserindo episódio ${x} de ${numEpisodios}`);
           await new Episodio({
             temporada_id: temporada._id,
-            titulo: `Episódio ${i}`,
+            titulo: `Episódio ${x}`,
             numero: x,
             descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
             capa: "https://picsum.photos/300/200"
