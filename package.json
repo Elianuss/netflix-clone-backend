@@ -8,7 +8,7 @@
     "start": "nodemon ./index.js",
     "populate_users": "node ./src/scripts/addUsers.js",
     "populate_filmes": "node ./src/scripts/addFilmes.js",
-    "populate_logoMobile": "node ./src/scripts/addFilmesLogoMobile.js",
+    "populate_logo_mobile": "node ./src/scripts/addFilmesLogoMobile.js",
     "populate_temp_ep": "node ./src/scripts/addTemporadasEpisodios.js"
   },
   "author": "",
